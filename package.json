@@ -20,7 +20,11 @@
     "@storybook/manager-webpack4": "^6.5.16",
     "@storybook/web-components": "^6.5.16",
     "babel-loader": "^8.3.0",
+    "lerna": "^6.5.1",
     "lit-html": "^2.6.1"
   },
-  "dependencies": {}
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
